@@ -1,0 +1,89 @@
+body {
+  background-color: #;
+}
+  #header { 
+}
+#header-img {
+  Positon: relative;
+  width: 50px;
+  height: 55px;
+}
+
+#nav-bar {
+  width: 100%;
+  float: left;
+  margin top: -50;
+  padding: 0;
+  list-style: none;
+  background-color: black;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  
+}
+
+.nav-link {
+  text-decoration: none;
+  
+}
+nav ul li {
+  float: right;
+  text-decoration: none;
+  list-style-type: none;
+  border-right: #ccc;
+  padding-bottom: 10px;
+}
+nav ul li{
+  float: right;
+  width: 120px;
+  height: 30px;
+  line-height: 15px;
+  text-align: center;
+}
+nav li a {
+  display: inline;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: brown
+}
+#videowrapper {
+  position: relative;
+  padding-top: 5%;
+  padding-left: 40%;
+}
+#email {
+  border: 5px solid brown;
+  margin-top: 1%;
+  margin-left: 39%;
+  width: 270px;
+  padding: 5px;
+  align-items: center;
+
+  
+}
+#submit {
+  width: 220px;
+  margin-top: 3%;
+  margin-left: 41.5%;
+  padding: 4px;
+  border: 5px solid brown;
+  align-items: center;
+  
+}
+#courseoffers {
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 0.8px 1.5px gray;
+  margin-top: 3.%;
+}
+@media (max-width:200px) {
+#nav-bar {
+  width: 100%;
+  float: left;
+  margin top: -50;
+  padding: 0;
+  list-style: none;
+  background-color: black;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  }
